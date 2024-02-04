@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MasterHomePage">
+
+    <TextView
+        android:id="@+id/devicenameslave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slave Name : " />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3slave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Battery : " />
+
+            <TextView
+                android:id="@+id/batteryslave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView5slave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lattitude :" />
+
+            <TextView
+                android:id="@+id/latslave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView7slave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude : " />
+
+            <TextView
+                android:id="@+id/longislave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" " />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
